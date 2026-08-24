@@ -26,9 +26,9 @@ app.use('/api', tipoRoutes);
 app.use('/api', mediaRoutes);
 
 app.get('/', (req, res) => {
-  res.send('🚀 API de Películas funcionando');
+  res.send('API de Pelis en desarrollo. Por favor paciencia :)');
 });
 
 app.listen(PORT, () => {
-  console.log(`✅ Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
