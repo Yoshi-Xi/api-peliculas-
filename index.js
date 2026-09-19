@@ -26,7 +26,7 @@ app.use('/api', tipoRoutes);
 app.use('/api', mediaRoutes);
 
 app.get('/', (req, res) => {
-  res.send('API de Pelis en desarrollo. Por favor paciencia :)');
+  res.send('API de Pelis desarrollada, muchas gracias por su paciencia :)');
 });
 
 app.listen(PORT, () => {
